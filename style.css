@@ -77,17 +77,13 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--border);
 }
 .hero__avatar {
-  width: 104px;
-  height: 104px;
+  width: 128px;
+  height: 128px;
   margin: 0 auto 22px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-weight: 800;
-  font-size: 1.9rem;
-  letter-spacing: 1px;
-  color: #0b1220;
-  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  object-fit: cover;
+  object-position: center 28%;
+  border: 3px solid rgba(56, 189, 248, 0.5);
   box-shadow: var(--shadow);
 }
 .hero__name {
