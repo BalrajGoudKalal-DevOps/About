@@ -3,141 +3,231 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Balraj Goud Kalal — Principal Consultant, DevOps</title>
-  <meta name="description" content="Balraj Goud Kalal — Principal Consultant (DevOps) | Cloud & CI/CD Architect | AWS | Azure | Platform Engineering | AI-Assisted DevOps. 11+ years of experience." />
+  <title>Balraj Goud Kalal — DevOps &amp; Cloud Architect</title>
+  <meta name="description" content="Balraj Goud Kalal — Principal Consultant (DevOps), Cloud & CI/CD Architect. 11+ years building enterprise CI/CD platforms and cloud automation across AWS and Azure." />
   <meta name="author" content="Balraj Goud Kalal" />
 
-  <!-- Open Graph / social preview -->
-  <meta property="og:title" content="Balraj Goud Kalal — Principal Consultant, DevOps" />
+  <meta property="og:title" content="Balraj Goud Kalal — DevOps & Cloud Architect" />
   <meta property="og:description" content="Cloud & CI/CD Architect | AWS | Azure | Platform Engineering | AI-Assisted DevOps." />
   <meta property="og:type" content="profile" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- ===== Navigation ===== -->
-  <header class="nav">
+  <header class="nav" id="nav">
     <div class="container nav__inner">
-      <a href="#top" class="nav__brand">BGK</a>
-      <nav class="nav__links">
+      <a href="#top" class="nav__brand">Balraj<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav__links" id="navLinks">
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#contact">Contact</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact" class="nav__cta">Contact</a>
       </nav>
     </div>
   </header>
 
   <!-- ===== Hero ===== -->
   <section id="top" class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
     <div class="container hero__inner">
       <img class="hero__avatar" src="profile.png" alt="Balraj Goud Kalal" />
+      <p class="hero__eyebrow">👋 Hello, I'm</p>
       <h1 class="hero__name">Balraj Goud Kalal</h1>
-      <p class="hero__title">Principal Consultant – DevOps</p>
+      <p class="hero__title">DevOps &amp; Cloud Architect</p>
       <p class="hero__tagline">
-        Cloud &amp; CI/CD Architect · AWS · Azure · Platform Engineering · AI-Assisted DevOps
+        I design and automate enterprise CI/CD platforms and cloud infrastructure that help
+        engineering teams ship faster, safer, and at scale — across <strong>AWS</strong> and
+        <strong>Azure</strong>.
       </p>
-      <p class="hero__meta">📍 Hyderabad, Telangana, India &nbsp;·&nbsp; 💼 11+ years of experience</p>
       <div class="hero__cta">
-        <a class="btn btn--primary" href="#contact">Get in touch</a>
-        <a class="btn btn--ghost" href="https://www.linkedin.com/in/balraj-goud-kalal" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn--primary" href="#contact">Let's connect</a>
+        <a class="btn btn--ghost" href="Balraj-Goud-Kalal-Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
       </div>
+      <div class="hero__social">
+        <a href="https://www.linkedin.com/in/balraj-goud-kalal" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:kbalrajgoud4a7@gmail.com" aria-label="Email">✉</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stats ===== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat"><span class="stat__num">11+</span><span class="stat__label">Years Experience</span></div>
+      <div class="stat"><span class="stat__num">5+</span><span class="stat__label">Global Enterprises</span></div>
+      <div class="stat"><span class="stat__num">2</span><span class="stat__label">Clouds · AWS &amp; Azure</span></div>
+      <div class="stat"><span class="stat__num">AWS</span><span class="stat__label">Certified Architect</span></div>
     </div>
   </section>
 
   <main>
     <!-- ===== About ===== -->
     <section id="about" class="section">
-      <div class="container">
-        <h2 class="section__title">About</h2>
-        <p class="lead">
-          DevOps and Cloud Engineering professional with 10+ years of experience designing scalable
-          CI/CD platforms, cloud infrastructure, and automation frameworks across AWS and Azure
-          environments. Currently a Principal Consultant at Genpact delivering DevOps engineering solutions.
-        </p>
-        <p>
-          Specialized in architecting enterprise CI/CD pipeline frameworks, automating cloud deployments,
-          and enabling cloud-native application delivery using modern DevOps practices. Extensive experience
-          implementing automated deployment pipelines for AWS services such as Lambda, ECS/EKS, Glue,
-          AppSync, S3 promotions, and Airflow DAG workflows.
-        </p>
-        <p>
-          Strong background in Infrastructure as Code (Terraform, Ansible), containerization, monitoring,
-          and Disaster Recovery automation. Proven ability to lead DevOps initiatives, troubleshoot complex
-          delivery pipelines, collaborate across multi-team environments, and accelerate engineering
-          productivity using AI-assisted development tools such as GitHub Copilot.
-        </p>
-
-        <h3 class="subhead">Core Competencies</h3>
-        <ul class="pills">
-          <li>DevOps Architecture &amp; Platform Engineering</li>
-          <li>CI/CD Pipeline Framework Design</li>
-          <li>AWS &amp; Azure Cloud Engineering</li>
-          <li>Infrastructure as Code (Terraform, Ansible)</li>
-          <li>Container Platforms (Docker, EKS/ECS)</li>
-          <li>Automation &amp; Scripting (Shell, YAML, Python)</li>
-          <li>Disaster Recovery Automation</li>
-          <li>Monitoring &amp; Observability</li>
-          <li>DevOps Troubleshooting &amp; Release Engineering</li>
-          <li>AI-Assisted DevOps (GitHub Copilot)</li>
-        </ul>
+      <div class="container about">
+        <div class="about__main">
+          <p class="section__eyebrow">About me</p>
+          <h2 class="section__title">Turning complex delivery into reliable automation</h2>
+          <p class="lead">
+            I'm a DevOps and Cloud Engineering professional with <strong>11+ years</strong> of
+            experience designing scalable CI/CD platforms, cloud infrastructure, and automation
+            frameworks. Currently a <strong>Principal Consultant at Genpact</strong>, I lead
+            enterprise DevOps initiatives that accelerate engineering productivity.
+          </p>
+          <p>
+            My focus is architecting reusable CI/CD pipeline frameworks, automating cloud-native
+            application delivery, and building resilient infrastructure. I've delivered automated
+            deployment pipelines for AWS services including Lambda, ECS/EKS, Glue, AppSync, S3
+            promotions, and Airflow DAG workflows — and I bring the same rigor to Azure API
+            Management and self-hosted gateway automation.
+          </p>
+          <p>
+            I'm a strong believer in Infrastructure as Code, disaster-recovery automation, and
+            using AI-assisted tooling (like GitHub Copilot) to move faster without compromising
+            quality.
+          </p>
+        </div>
+        <aside class="about__card">
+          <h3>Quick facts</h3>
+          <ul>
+            <li><span>📍 Location</span><strong>Hyderabad, India</strong></li>
+            <li><span>💼 Role</span><strong>Principal Consultant – DevOps</strong></li>
+            <li><span>🏢 Company</span><strong>Genpact</strong></li>
+            <li><span>☁️ Clouds</span><strong>AWS · Azure</strong></li>
+            <li><span>🎓 Certified</span><strong>AWS Solutions Architect – Associate</strong></li>
+            <li><span>🗣️ Open to</span><strong>Consulting &amp; collaboration</strong></li>
+          </ul>
+        </aside>
       </div>
     </section>
 
-    <!-- ===== Skills ===== -->
-    <section id="skills" class="section section--alt">
+    <!-- ===== Expertise ===== -->
+    <section id="expertise" class="section section--alt">
       <div class="container">
-        <h2 class="section__title">Technical Skills</h2>
-        <div class="skills">
-          <div class="skills__group">
-            <h4>DevOps Tools</h4>
-            <p>GitLab CI/CD · Jenkins · Git · CodeCommit</p>
-          </div>
-          <div class="skills__group">
-            <h4>Cloud Platforms</h4>
-            <p>AWS · Microsoft Azure</p>
-          </div>
-          <div class="skills__group">
-            <h4>AWS Services</h4>
-            <p>EC2 · ECS · EKS · Lambda · Glue · AppSync · S3 · IAM · VPC · Auto Scaling · ALB · ELB · CloudWatch · Route 53 · CloudFront · SQS · SNS · RDS</p>
-          </div>
-          <div class="skills__group">
-            <h4>Azure Services</h4>
-            <p>Azure API Management (APIM) · Azure Monitor</p>
-          </div>
-          <div class="skills__group">
-            <h4>Infrastructure as Code</h4>
-            <p>Terraform · Ansible</p>
-          </div>
-          <div class="skills__group">
-            <h4>Containers</h4>
-            <p>Docker · Kubernetes (EKS)</p>
-          </div>
-          <div class="skills__group">
-            <h4>Monitoring</h4>
-            <p>Splunk · SolarWinds · CloudWatch</p>
-          </div>
-          <div class="skills__group">
-            <h4>Collaboration</h4>
-            <p>Jira · ServiceNow</p>
-          </div>
-          <div class="skills__group">
-            <h4>Methodologies</h4>
-            <p>Agile · DevOps · CI/CD Automation</p>
-          </div>
+        <p class="section__eyebrow">What I do</p>
+        <h2 class="section__title">Areas of expertise</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">🚀</div>
+            <h3>CI/CD Platform Engineering</h3>
+            <p>Reusable GitLab CI/CD frameworks enabling automated, consistent deployments across many applications and services.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">☁️</div>
+            <h3>Cloud Engineering</h3>
+            <p>Architecting and operating scalable infrastructure across AWS and Azure for enterprise-grade workloads.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🧱</div>
+            <h3>Infrastructure as Code</h3>
+            <p>Repeatable, version-controlled provisioning with Terraform and Ansible for reliable environments.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">📦</div>
+            <h3>Containers &amp; Orchestration</h3>
+            <p>Containerized delivery with Docker and Kubernetes (EKS/ECS) for portable, resilient services.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🛡️</div>
+            <h3>Disaster Recovery Automation</h3>
+            <p>Automated DR pipelines that improve recovery readiness and deployment reliability.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🤖</div>
+            <h3>AI-Assisted DevOps</h3>
+            <p>Leveraging GitHub Copilot and AI agents to accelerate automation scripting and pipeline development.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section__eyebrow">Selected work</p>
+        <h2 class="section__title">Featured projects</h2>
+        <div class="projects">
+          <article class="project">
+            <div class="project__head">
+              <span class="project__tag">CI/CD Framework</span>
+            </div>
+            <h3>Enterprise CI/CD Pipeline Framework</h3>
+            <p>Designed and built a reusable GitLab CI/CD framework that standardized and automated deployments across multiple applications and cloud services, cutting onboarding effort for new teams.</p>
+            <ul class="project__stack">
+              <li>GitLab CI/CD</li><li>YAML</li><li>Shell</li><li>AWS</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <span class="project__tag">AWS Automation</span>
+            </div>
+            <h3>AWS Multi-Service Deployment Automation</h3>
+            <p>Automated delivery pipelines for ECS services, Lambda functions, AWS Glue jobs, AppSync APIs, S3 promotions, and Airflow DAG workflows — unifying diverse AWS services under one consistent process.</p>
+            <ul class="project__stack">
+              <li>ECS</li><li>Lambda</li><li>Glue</li><li>AppSync</li><li>Airflow</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <span class="project__tag">Resilience</span>
+            </div>
+            <h3>Automated Disaster Recovery</h3>
+            <p>Implemented automated DR pipelines that improved recovery readiness and deployment reliability, reducing manual steps and risk during failover scenarios.</p>
+            <ul class="project__stack">
+              <li>Terraform</li><li>AWS</li><li>Automation</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <span class="project__tag">Azure</span>
+            </div>
+            <h3>Azure APIM &amp; Self-Hosted Gateways</h3>
+            <p>Developed pipelines for Azure API Management integrations and self-hosted gateway deployments, extending automation consistently across a hybrid AWS + Azure estate.</p>
+            <ul class="project__stack">
+              <li>Azure APIM</li><li>Self-Hosted Gateway</li><li>CI/CD</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <span class="project__tag">AI / Innovation</span>
+            </div>
+            <h3>AI-Assisted DevOps Copilot</h3>
+            <p>Explored AI agents and GitHub Copilot to accelerate pipeline development, troubleshooting, and root-cause analysis — boosting engineering throughput across teams.</p>
+            <ul class="project__stack">
+              <li>GitHub Copilot</li><li>Python</li><li>Automation</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project__head">
+              <span class="project__tag">Infrastructure</span>
+            </div>
+            <h3>Infrastructure as Code at Scale</h3>
+            <p>Provisioned and managed large-scale AWS and Azure infrastructure using Terraform and Ansible, improving repeatability, auditability, and release efficiency.</p>
+            <ul class="project__stack">
+              <li>Terraform</li><li>Ansible</li><li>AWS</li><li>Azure</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
 
     <!-- ===== Experience ===== -->
-    <section id="experience" class="section">
+    <section id="experience" class="section section--alt">
       <div class="container">
-        <h2 class="section__title">Professional Experience</h2>
+        <p class="section__eyebrow">Career</p>
+        <h2 class="section__title">Professional experience</h2>
         <ol class="timeline">
           <li class="timeline__item">
             <div class="timeline__head">
@@ -147,15 +237,12 @@
             </div>
             <ul>
               <li>Leading DevOps engineering initiatives focused on enterprise CI/CD automation.</li>
-              <li>Designed and implemented reusable GitLab CI/CD pipeline frameworks enabling automated deployments for multiple applications and cloud services.</li>
-              <li>Built automated pipelines for AWS services including ECS services, S3 promotions, Airflow DAG deployments, AWS Glue jobs, Lambda functions, and AppSync APIs.</li>
+              <li>Designed reusable GitLab CI/CD pipeline frameworks for multiple applications and cloud services.</li>
+              <li>Built pipelines for ECS services, S3 promotions, Airflow DAGs, Glue jobs, Lambda, and AppSync APIs.</li>
               <li>Developed pipelines for Self-Hosted Gateways and Azure API Management integrations.</li>
-              <li>Leveraged GitHub Copilot and AI-assisted development to accelerate automation scripting and pipeline development.</li>
-              <li>Implemented automated Disaster Recovery pipelines improving recovery readiness and deployment reliability.</li>
-              <li>Troubleshoot complex pipeline failures and optimize CI/CD processes across multiple engineering teams.</li>
+              <li>Implemented automated Disaster Recovery pipelines and accelerated delivery with AI-assisted tooling.</li>
             </ul>
           </li>
-
           <li class="timeline__item">
             <div class="timeline__head">
               <h3>Senior Consultant (DevOps)</h3>
@@ -163,13 +250,11 @@
               <span class="timeline__date">May 2021 – Dec 2024</span>
             </div>
             <ul>
-              <li>Managed large-scale AWS and Azure cloud infrastructure supporting enterprise applications.</li>
-              <li>Implemented CI/CD pipelines and infrastructure provisioning using Terraform and Ansible.</li>
+              <li>Managed large-scale AWS and Azure cloud infrastructure for enterprise applications.</li>
+              <li>Implemented CI/CD pipelines and provisioning with Terraform and Ansible.</li>
               <li>Supported disaster recovery planning, monitoring platforms, and environment migrations.</li>
-              <li>Improved deployment automation and release efficiency across development teams.</li>
             </ul>
           </li>
-
           <li class="timeline__item">
             <div class="timeline__head">
               <h3>DevOps Engineer</h3>
@@ -178,11 +263,9 @@
             </div>
             <ul>
               <li>Managed AWS infrastructure including EC2, VPC, Auto Scaling, and CloudWatch monitoring.</li>
-              <li>Automated infrastructure provisioning and operational support tasks.</li>
-              <li>Provided production monitoring and troubleshooting for cloud environments.</li>
+              <li>Automated infrastructure provisioning and production support tasks.</li>
             </ul>
           </li>
-
           <li class="timeline__item">
             <div class="timeline__head">
               <h3>Test Engineer</h3>
@@ -192,10 +275,8 @@
             <ul>
               <li>Implemented Jenkins CI/CD pipelines and Git integrations.</li>
               <li>Managed Docker containers and supported Linux-based environments.</li>
-              <li>Provided monitoring and operational support using Jira and DevOps tools.</li>
             </ul>
           </li>
-
           <li class="timeline__item">
             <div class="timeline__head">
               <h3>Assistant Engineer</h3>
@@ -203,7 +284,7 @@
               <span class="timeline__date">Sep 2015 – Sep 2018</span>
             </div>
             <ul>
-              <li>Performed automation testing using Selenium and supported CI environments.</li>
+              <li>Performed automation testing with Selenium and supported CI environments.</li>
               <li>Conducted API testing, regression testing, and automation framework execution.</li>
             </ul>
           </li>
@@ -212,45 +293,27 @@
     </section>
 
     <!-- ===== Education ===== -->
-    <section id="education" class="section section--alt">
+    <section id="education" class="section">
       <div class="container">
+        <p class="section__eyebrow">Academics</p>
         <h2 class="section__title">Education</h2>
-        <ol class="timeline">
-          <li class="timeline__item">
-            <div class="timeline__head">
-              <h3>Bachelor of Technology (B.Tech)</h3>
-              <span class="timeline__org">Sri Kottam Tulasi Reddy Memorial College of Engineering</span>
-              <span class="timeline__date">2014</span>
-            </div>
-          </li>
-          <li class="timeline__item">
-            <div class="timeline__head">
-              <h3>Intermediate (Class XII)</h3>
-              <span class="timeline__org">Pratibha Junior College, Mahabubnagar</span>
-              <span class="timeline__date">2010</span>
-            </div>
-          </li>
-          <li class="timeline__item">
-            <div class="timeline__head">
-              <h3>Secondary School Certificate (SSC)</h3>
-              <span class="timeline__org">Sri Vivekananda High School</span>
-              <span class="timeline__date">2008</span>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- ===== Achievements & Certification ===== -->
-    <section id="achievements" class="section">
-      <div class="container">
-        <h2 class="section__title">Key Achievements</h2>
-        <ul class="checklist">
-          <li>Designed scalable CI/CD pipeline architecture supporting multiple AWS services and environments.</li>
-          <li>Implemented automated disaster recovery pipelines improving deployment resiliency.</li>
-          <li>Accelerated DevOps automation using AI tools such as GitHub Copilot.</li>
-          <li>Delivered enterprise DevOps solutions across financial services and enterprise platforms.</li>
-        </ul>
+        <div class="edu">
+          <div class="edu__item">
+            <div class="edu__year">2014</div>
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p>Sri Kottam Tulasi Reddy Memorial College of Engineering</p>
+          </div>
+          <div class="edu__item">
+            <div class="edu__year">2010</div>
+            <h3>Intermediate (Class XII)</h3>
+            <p>Pratibha Junior College, Mahabubnagar</p>
+          </div>
+          <div class="edu__item">
+            <div class="edu__year">2008</div>
+            <h3>Secondary School (SSC)</h3>
+            <p>Sri Vivekananda High School</p>
+          </div>
+        </div>
 
         <h3 class="subhead">Certification</h3>
         <div class="cert">
@@ -260,21 +323,42 @@
       </div>
     </section>
 
+    <!-- ===== Interests ===== -->
+    <section id="interests" class="section section--alt">
+      <div class="container">
+        <p class="section__eyebrow">Beyond the code</p>
+        <h2 class="section__title">Interests &amp; passions</h2>
+        <p class="lead">What keeps me curious and energized outside of day-to-day delivery.</p>
+        <div class="interests">
+          <div class="interest"><span>🤖</span><h4>AI &amp; Automation</h4><p>Exploring how AI agents and Copilot reshape modern DevOps.</p></div>
+          <div class="interest"><span>☁️</span><h4>Cloud Innovation</h4><p>Keeping up with the latest AWS &amp; Azure services and patterns.</p></div>
+          <div class="interest"><span>📚</span><h4>Continuous Learning</h4><p>Certifications, courses, and hands-on experimentation.</p></div>
+          <div class="interest"><span>🧑‍🏫</span><h4>Mentoring</h4><p>Helping engineers grow in DevOps and cloud careers.</p></div>
+          <div class="interest"><span>🌐</span><h4>Open Source &amp; Community</h4><p>Learning from and contributing to the tech community.</p></div>
+          <div class="interest"><span>✈️</span><h4>Travel</h4><p>Discovering new places, people, and perspectives.</p></div>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== Contact ===== -->
     <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section__title">Contact</h2>
-        <p class="lead">Open to conversations about DevOps, cloud architecture, and platform engineering.</p>
+      <div class="container contact-wrap">
+        <p class="section__eyebrow">Get in touch</p>
+        <h2 class="section__title">Let's build something reliable together</h2>
+        <p class="lead">Open to conversations about DevOps, cloud architecture, and platform engineering. The fastest way to reach me is email or LinkedIn.</p>
         <div class="contact">
           <a class="contact__card" href="mailto:kbalrajgoud4a7@gmail.com">
+            <span class="contact__ico">✉</span>
             <span class="contact__label">Email</span>
             <span class="contact__value">kbalrajgoud4a7@gmail.com</span>
           </a>
           <a class="contact__card" href="tel:+919491487490">
+            <span class="contact__ico">📞</span>
             <span class="contact__label">Phone</span>
             <span class="contact__value">+91 94914 87490</span>
           </a>
           <a class="contact__card" href="https://www.linkedin.com/in/balraj-goud-kalal" target="_blank" rel="noopener">
+            <span class="contact__ico">in</span>
             <span class="contact__label">LinkedIn</span>
             <span class="contact__value">balraj-goud-kalal</span>
           </a>
@@ -284,13 +368,26 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>© <span id="year"></span> Balraj Goud Kalal · Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+    <div class="container footer__inner">
+      <span class="footer__brand">Balraj Goud Kalal</span>
+      <span>© <span id="year"></span> · Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/balraj-goud-kalal" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:kbalrajgoud4a7@gmail.com">Email</a>
+      </div>
     </div>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+    // Mobile menu toggle
+    const toggle = document.getElementById("navToggle");
+    const links = document.getElementById("navLinks");
+    toggle.addEventListener("click", () => links.classList.toggle("is-open"));
+    links.querySelectorAll("a").forEach(a => a.addEventListener("click", () => links.classList.remove("is-open")));
+    // Shrink nav on scroll
+    const nav = document.getElementById("nav");
+    window.addEventListener("scroll", () => nav.classList.toggle("is-scrolled", window.scrollY > 10));
   </script>
 </body>
 </html>
