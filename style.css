@@ -161,6 +161,19 @@ p { color: var(--muted); }
 .project__stack { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .project__stack li { font-size: 0.78rem; color: var(--muted); background: var(--bg); border: 1px solid var(--border); padding: 4px 10px; border-radius: 6px; }
 
+/* ===== Tech Stack ===== */
+.stack { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; margin-top: 26px; }
+.stack__group { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; }
+.stack__group h4 { margin: 0 0 14px; font-size: 1rem; color: var(--text); }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tags span {
+  font-size: 0.82rem; color: var(--text);
+  background: var(--bg); border: 1px solid var(--border);
+  padding: 6px 12px; border-radius: 999px;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.tags span:hover { border-color: var(--brand); color: var(--brand); transform: translateY(-2px); }
+
 /* ===== Timeline ===== */
 .timeline { list-style: none; margin: 0; padding: 0; }
 .timeline__item { position: relative; padding: 0 0 30px 30px; border-left: 2px solid var(--border); }
